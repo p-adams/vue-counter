@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Vue Counter</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">  
+</head>
+<body>
+   
+    <h1>Vue.js Counter</h1>
+    <div class="jumbotron">
+        <div id="counter-app">
+            
+            <h2>{{count}}</h2>
+            <button type="button" class="btn btn-success" @click="incrementCount">+</button>
+            <button type="button" class="btn btn-success" @click="decrementCount">-</button>
+        </div>
+   </div>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
