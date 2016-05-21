@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+#counter-app{
+    margin-left: 580px;
+    margin-top: 10px;
+}
+h2{
+    margin-left: 95px;
+}
+.btn-success{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+}
